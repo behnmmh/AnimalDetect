@@ -70,7 +70,7 @@ def select_file():
         path = 'icons/cow.png'
     if predicted_class[0] == 7:
         path = 'icons/sheep.png'
-    if predicted_class[0] == 9:
+    if predicted_class[0] == 8:
         path = 'icons/squirrel.png'
     img_pil = Image.open(path)  # باز کردن تصویر با PIL
     img = ctk.CTkImage(img_pil, size=(120, 120))
